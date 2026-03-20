@@ -1,0 +1,209 @@
+<svg width="360" height="660" viewBox="0 0 360 660" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0d1a"/>
+      <stop offset="100%" stop-color="#080810"/>
+    </linearGradient>
+    <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c8ff00" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#c8ff00" stop-opacity="0.01"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="bigglow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="screen">
+      <rect x="10" y="10" width="340" height="640" rx="28"/>
+    </clipPath>
+  </defs>
+
+  <!-- Phone outer shell -->
+  <rect x="0" y="0" width="360" height="660" rx="36" fill="#0a0a18" stroke="#2e2e50" stroke-width="2"/>
+  <!-- Side buttons -->
+  <rect x="-2" y="140" width="4" height="40" rx="2" fill="#1a1a30"/>
+  <rect x="-2" y="190" width="4" height="40" rx="2" fill="#1a1a30"/>
+  <rect x="358" y="160" width="4" height="60" rx="2" fill="#1a1a30"/>
+  <!-- Notch / camera area -->
+  <rect x="140" y="12" width="80" height="8" rx="4" fill="#0a0a18"/>
+  <circle cx="188" cy="16" r="3" fill="#111130"/>
+
+  <!-- Screen background -->
+  <rect x="10" y="10" width="340" height="640" rx="28" fill="url(#bg)"/>
+
+  <g clip-path="url(#screen)">
+
+    <!-- subtle grid -->
+    <line x1="10" y1="180" x2="350" y2="180" stroke="#1e1e35" stroke-width="0.5"/>
+    <line x1="10" y1="350" x2="350" y2="350" stroke="#1e1e35" stroke-width="0.5"/>
+    <line x1="10" y1="520" x2="350" y2="520" stroke="#1e1e35" stroke-width="0.5"/>
+
+    <!-- ── HEADER ── -->
+    <rect x="10" y="10" width="340" height="56" fill="#080810"/>
+    <rect x="10" y="66" width="340" height="1" fill="#252540"/>
+    <!-- Logo IRON -->
+    <text x="28" y="47" font-family="Impact, Arial Black, sans-serif" font-size="26" font-weight="900" letter-spacing="3" fill="#c8ff00">IRON</text>
+    <!-- Logo LOG -->
+    <text x="90" y="47" font-family="Impact, Arial Black, sans-serif" font-size="26" font-weight="300" letter-spacing="3" fill="#7777aa">LOG</text>
+    <!-- Plus button -->
+    <rect x="298" y="20" width="34" height="34" rx="8" fill="#161628" stroke="#2e2e50" stroke-width="1"/>
+    <text x="315" y="42" font-family="Arial" font-size="22" font-weight="300" text-anchor="middle" fill="#eeeeff">+</text>
+
+    <!-- ── STAT CARDS ── -->
+    <!-- Card 1: Workouts -->
+    <rect x="18" y="76" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="30" y="108" font-family="Impact, Arial Black, sans-serif" font-size="30" font-weight="900" fill="#c8ff00" filter="url(#glow)">47</text>
+    <text x="28" y="130" font-family="Courier New, monospace" font-size="7" letter-spacing="0.5" fill="#55556a">WORKOUTS</text>
+
+    <!-- Card 2: This Week -->
+    <rect x="97" y="76" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="111" y="108" font-family="Impact, Arial Black, sans-serif" font-size="30" font-weight="900" fill="#ff3355" filter="url(#glow)">4</text>
+    <text x="104" y="130" font-family="Courier New, monospace" font-size="7" letter-spacing="0.5" fill="#55556a">THIS WEEK</text>
+
+    <!-- Card 3: Sets -->
+    <rect x="176" y="76" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="185" y="108" font-family="Impact, Arial Black, sans-serif" font-size="25" font-weight="900" fill="#38b2ff" filter="url(#glow)">312</text>
+    <text x="183" y="130" font-family="Courier New, monospace" font-size="7" letter-spacing="0.5" fill="#55556a">TOTAL SETS</text>
+
+    <!-- Card 4: Max KG -->
+    <rect x="255" y="76" width="77" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="264" y="108" font-family="Impact, Arial Black, sans-serif" font-size="25" font-weight="900" fill="#ff8c00" filter="url(#glow)">180</text>
+    <text x="265" y="130" font-family="Courier New, monospace" font-size="7" letter-spacing="0.5" fill="#55556a">MAX KG</text>
+
+    <!-- ── WEEK LABEL ── -->
+    <text x="18" y="158" font-family="Courier New, monospace" font-size="8" letter-spacing="2" fill="#55556a">THIS WEEK</text>
+
+    <!-- Week dots -->
+    <rect x="18" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1.5"/>
+    <text x="33" y="176" font-family="Courier New, monospace" font-size="9" font-weight="700" text-anchor="middle" fill="#c8ff00">18</text>
+    <text x="33" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#c8ff00">MON</text>
+
+    <rect x="53" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="68" y="176" font-family="Courier New, monospace" font-size="9" text-anchor="middle" fill="#55556a">19</text>
+    <text x="68" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#55556a">TUE</text>
+
+    <rect x="88" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1.5"/>
+    <text x="103" y="176" font-family="Courier New, monospace" font-size="9" font-weight="700" text-anchor="middle" fill="#c8ff00">20</text>
+    <text x="103" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#c8ff00">WED</text>
+
+    <rect x="123" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="138" y="176" font-family="Courier New, monospace" font-size="9" text-anchor="middle" fill="#55556a">21</text>
+    <text x="138" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#55556a">THU</text>
+
+    <rect x="158" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1.5"/>
+    <text x="173" y="176" font-family="Courier New, monospace" font-size="9" font-weight="700" text-anchor="middle" fill="#c8ff00">22</text>
+    <text x="173" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#c8ff00">FRI</text>
+
+    <rect x="193" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="208" y="176" font-family="Courier New, monospace" font-size="9" text-anchor="middle" fill="#55556a">23</text>
+    <text x="208" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#55556a">SAT</text>
+
+    <rect x="228" y="164" width="30" height="30" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <text x="243" y="176" font-family="Courier New, monospace" font-size="9" text-anchor="middle" fill="#55556a">24</text>
+    <text x="243" y="189" font-family="Courier New, monospace" font-size="6" text-anchor="middle" fill="#55556a">SUN</text>
+
+    <!-- ── RECENT WORKOUTS ── -->
+    <text x="18" y="212" font-family="Courier New, monospace" font-size="8" letter-spacing="2" fill="#55556a">RECENT WORKOUTS</text>
+
+    <!-- Card: Push Day -->
+    <rect x="18" y="220" width="314" height="62" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <rect x="18" y="220" width="3" height="62" rx="2" fill="#ff3355"/>
+    <text x="30" y="241" font-family="Impact, Arial Black, sans-serif" font-size="17" letter-spacing="1" fill="#eeeeff">PUSH DAY A</text>
+    <text x="30" y="257" font-family="Courier New, monospace" font-size="7.5" fill="#55556a">Thu 20 Mar  ·  6 exercises  ·  24 sets</text>
+    <rect x="240" y="226" width="84" height="18" rx="9" fill="rgba(200,255,0,0.1)"/>
+    <text x="282" y="239" font-family="Courier New, monospace" font-size="8" text-anchor="middle" fill="#c8ff00">4320 KG VOL</text>
+    <text x="30" y="274" font-family="Courier New, monospace" font-size="7.5" fill="#ff3355">Push</text>
+
+    <!-- Card: Pull Day -->
+    <rect x="18" y="290" width="314" height="62" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <rect x="18" y="290" width="3" height="62" rx="2" fill="#38b2ff"/>
+    <text x="30" y="311" font-family="Impact, Arial Black, sans-serif" font-size="17" letter-spacing="1" fill="#eeeeff">PULL DAY B</text>
+    <text x="30" y="327" font-family="Courier New, monospace" font-size="7.5" fill="#55556a">Tue 18 Mar  ·  7 exercises  ·  28 sets</text>
+    <rect x="240" y="296" width="84" height="18" rx="9" fill="rgba(200,255,0,0.1)"/>
+    <text x="282" y="309" font-family="Courier New, monospace" font-size="8" text-anchor="middle" fill="#c8ff00">5100 KG VOL</text>
+    <text x="30" y="344" font-family="Courier New, monospace" font-size="7.5" fill="#38b2ff">Pull</text>
+
+    <!-- Card: Leg Day -->
+    <rect x="18" y="360" width="314" height="62" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
+    <rect x="18" y="360" width="3" height="62" rx="2" fill="#c8ff00"/>
+    <text x="30" y="381" font-family="Impact, Arial Black, sans-serif" font-size="17" letter-spacing="1" fill="#eeeeff">LEG DAY</text>
+    <text x="30" y="397" font-family="Courier New, monospace" font-size="7.5" fill="#55556a">Mon 17 Mar  ·  8 exercises  ·  32 sets</text>
+    <rect x="240" y="366" width="84" height="18" rx="9" fill="rgba(200,255,0,0.1)"/>
+    <text x="282" y="379" font-family="Courier New, monospace" font-size="8" text-anchor="middle" fill="#c8ff00">7200 KG VOL</text>
+    <text x="30" y="414" font-family="Courier New, monospace" font-size="7.5" fill="#c8ff00">Legs</text>
+
+    <!-- ── PROGRESS CHART ── -->
+    <text x="18" y="442" font-family="Courier New, monospace" font-size="8" letter-spacing="2" fill="#55556a">BENCH PRESS — MAX WEIGHT</text>
+    <rect x="18" y="450" width="314" height="126" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
+
+    <!-- Y axis labels -->
+    <text x="44" y="474" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">180</text>
+    <text x="44" y="494" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">160</text>
+    <text x="44" y="514" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">140</text>
+    <text x="44" y="534" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">120</text>
+    <text x="44" y="554" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">100</text>
+    <text x="44" y="568" font-family="Courier New, monospace" font-size="7" text-anchor="end" fill="#55556a">80</text>
+
+    <!-- Grid lines -->
+    <line x1="48" y1="470" x2="322" y2="470" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="48" y1="490" x2="322" y2="490" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="48" y1="510" x2="322" y2="510" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="48" y1="530" x2="322" y2="530" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="48" y1="550" x2="322" y2="550" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+    <line x1="48" y1="565" x2="322" y2="565" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
+
+    <!-- Chart area -->
+    <path d="M55,565 L90,557 L125,550 L160,541 L200,527 L240,512 L280,499 L315,470 L315,572 L55,572 Z"
+      fill="url(#chartFill)"/>
+    <!-- Chart line -->
+    <path d="M55,565 L90,557 L125,550 L160,541 L200,527 L240,512 L280,499 L315,470"
+      fill="none" stroke="#c8ff00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+
+    <!-- Data points -->
+    <circle cx="55"  cy="565" r="3" fill="#c8ff00"/>
+    <circle cx="90"  cy="557" r="3" fill="#c8ff00"/>
+    <circle cx="125" cy="550" r="3" fill="#c8ff00"/>
+    <circle cx="160" cy="541" r="3" fill="#c8ff00"/>
+    <circle cx="200" cy="527" r="3" fill="#c8ff00"/>
+    <circle cx="240" cy="512" r="3" fill="#c8ff00"/>
+    <circle cx="280" cy="499" r="3" fill="#c8ff00"/>
+    <!-- Last point glowing PR -->
+    <circle cx="315" cy="470" r="6" fill="#c8ff00" filter="url(#bigglow)" opacity="0.5"/>
+    <circle cx="315" cy="470" r="4" fill="#c8ff00"/>
+
+    <!-- PR badge -->
+    <rect x="290" y="456" width="40" height="14" rx="7" fill="rgba(255,140,0,0.25)" stroke="rgba(255,140,0,0.6)" stroke-width="1"/>
+    <text x="310" y="467" font-family="Courier New, monospace" font-size="7" text-anchor="middle" fill="#ff8c00">180 PR</text>
+
+    <!-- ── BOTTOM NAV ── -->
+    <rect x="10" y="600" width="340" height="50" fill="#111122"/>
+    <rect x="10" y="600" width="340" height="1" fill="#252540"/>
+
+    <!-- Home (active) -->
+    <text x="52" y="624" font-size="15" text-anchor="middle" fill="#c8ff00">⌂</text>
+    <text x="52" y="638" font-family="Courier New, monospace" font-size="6.5" text-anchor="middle" fill="#c8ff00">HOME</text>
+    <!-- Active indicator dot -->
+    <circle cx="52" cy="643" r="2" fill="#c8ff00"/>
+
+    <!-- Log -->
+    <text x="140" y="624" font-size="15" text-anchor="middle" fill="#55556a">≡</text>
+    <text x="140" y="638" font-family="Courier New, monospace" font-size="6.5" text-anchor="middle" fill="#55556a">LOG</text>
+
+    <!-- Progress -->
+    <text x="222" y="624" font-size="15" text-anchor="middle" fill="#55556a">↗</text>
+    <text x="222" y="638" font-family="Courier New, monospace" font-size="6.5" text-anchor="middle" fill="#55556a">PROGRESS</text>
+
+    <!-- Moves -->
+    <text x="308" y="624" font-size="15" text-anchor="middle" fill="#55556a">◈</text>
+    <text x="308" y="638" font-family="Courier New, monospace" font-size="6.5" text-anchor="middle" fill="#55556a">MOVES</text>
+
+  </g>
+
+  <!-- Outer frame highlight -->
+  <rect x="0" y="0" width="360" height="660" rx="36" fill="none" stroke="rgba(200,255,0,0.12)" stroke-width="1.5"/>
+  <!-- Screen edge reflection -->
+  <path d="M30,12 Q180,10 330,12" stroke="rgba(255,255,255,0.06)" stroke-width="2" fill="none" stroke-linecap="round"/>
+</svg>
