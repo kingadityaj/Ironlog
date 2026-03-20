@@ -1,192 +1,17 @@
 <div align="center">
 
-<!-- HERO BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=IRONLOG&fontSize=80&fontFamily=Bebas%20Neue&fontColor=c8ff00&animation=fadeIn&fontAlignY=38&desc=Your%20Iron%20Diary.%20No%20Fluff.%20Pure%20Gains.&descAlignY=60&descSize=16&descColor=aaaacc" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=IRONLOG&fontSize=80&fontColor=c8ff00&animation=fadeIn&fontAlignY=38&desc=Your%20Iron%20Diary.%20No%20Fluff.%20Pure%20Gains.&descAlignY=60&descSize=16&descColor=aaaacc" width="100%"/>
 
-<!-- BADGES -->
 <p>
   <img src="https://img.shields.io/badge/PWA-Ready-c8ff00?style=for-the-badge&logo=googlechrome&logoColor=black" />
   <img src="https://img.shields.io/badge/Offline-100%25-c8ff00?style=for-the-badge&logo=lightning&logoColor=black" />
   <img src="https://img.shields.io/badge/No_App_Store-Needed-c8ff00?style=for-the-badge&logo=android&logoColor=black" />
-  <img src="https://img.shields.io/badge/Built_for-Samsung_S21_FE-c8ff00?style=for-the-badge&logo=samsung&logoColor=black" />
+  <img src="https://img.shields.io/badge/Samsung-S21_FE-c8ff00?style=for-the-badge&logo=samsung&logoColor=black" />
 </p>
 
 <br/>
 
-<!-- PHONE MOCKUP SVG -->
-<svg width="360" height="660" viewBox="0 0 360 660" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0d0d1a"/>
-      <stop offset="100%" stop-color="#080810"/>
-    </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="softglow">
-      <feGaussianBlur stdDeviation="6" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <clipPath id="screen">
-      <rect x="10" y="10" width="340" height="640" rx="28"/>
-    </clipPath>
-  </defs>
-
-  <!-- Phone shell -->
-  <rect x="0" y="0" width="360" height="660" rx="36" fill="#111122" stroke="#2e2e50" stroke-width="2"/>
-  <!-- Screen -->
-  <rect x="10" y="10" width="340" height="640" rx="28" fill="url(#bg)"/>
-
-  <g clip-path="url(#screen)">
-    <!-- Grid -->
-    <line x1="10" y1="170" x2="350" y2="170" stroke="#252540" stroke-width="0.5"/>
-    <line x1="10" y1="330" x2="350" y2="330" stroke="#252540" stroke-width="0.5"/>
-    <line x1="10" y1="490" x2="350" y2="490" stroke="#252540" stroke-width="0.5"/>
-    <line x1="130" y1="10" x2="130" y2="650" stroke="#252540" stroke-width="0.5"/>
-    <line x1="250" y1="10" x2="250" y2="650" stroke="#252540" stroke-width="0.5"/>
-
-    <!-- Header -->
-    <rect x="10" y="10" width="340" height="58" fill="#080810"/>
-    <rect x="10" y="68" width="340" height="1" fill="#252540"/>
-    <text x="28" y="48" font-family="Arial Black, sans-serif" font-size="24" font-weight="900" letter-spacing="3" fill="#c8ff00">IRON</text>
-    <text x="90" y="48" font-family="Arial, sans-serif" font-size="24" font-weight="300" letter-spacing="3" fill="#aaaacc">LOG</text>
-    <rect x="300" y="22" width="32" height="32" rx="8" fill="#161628" stroke="#2e2e50" stroke-width="1"/>
-    <text x="316" y="43" font-size="18" text-anchor="middle" fill="#eeeeff">+</text>
-
-    <!-- STAT CARDS -->
-    <rect x="18" y="78" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="30" y="108" font-family="Arial Black, sans-serif" font-size="28" font-weight="900" fill="#c8ff00" filter="url(#glow)">47</text>
-    <text x="30" y="132" font-family="monospace" font-size="7.5" letter-spacing="0.5" fill="#55556a">WORKOUTS</text>
-
-    <rect x="97" y="78" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="109" y="108" font-family="Arial Black, sans-serif" font-size="28" font-weight="900" fill="#ff3355" filter="url(#glow)">4</text>
-    <text x="109" y="132" font-family="monospace" font-size="7.5" letter-spacing="0.5" fill="#55556a">THIS WEEK</text>
-
-    <rect x="176" y="78" width="72" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="186" y="108" font-family="Arial Black, sans-serif" font-size="24" font-weight="900" fill="#38b2ff" filter="url(#glow)">312</text>
-    <text x="186" y="132" font-family="monospace" font-size="7.5" letter-spacing="0.5" fill="#55556a">TOTAL SETS</text>
-
-    <rect x="255" y="78" width="75" height="64" rx="10" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="265" y="108" font-family="Arial Black, sans-serif" font-size="24" font-weight="900" fill="#ff8c00" filter="url(#glow)">180</text>
-    <text x="265" y="132" font-family="monospace" font-size="7.5" letter-spacing="0.5" fill="#55556a">MAX KG</text>
-
-    <!-- WEEK LABEL -->
-    <text x="18" y="162" font-family="monospace" font-size="8" letter-spacing="2" fill="#55556a">THIS WEEK</text>
-
-    <!-- Week dots -->
-    <rect x="18" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1"/>
-    <text x="34" y="181" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle" fill="#c8ff00">18</text>
-    <text x="34" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#c8ff00">MON</text>
-
-    <rect x="56" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="72" y="181" font-family="monospace" font-size="10" text-anchor="middle" fill="#55556a">19</text>
-    <text x="72" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">TUE</text>
-
-    <rect x="94" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1"/>
-    <text x="110" y="181" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle" fill="#c8ff00">20</text>
-    <text x="110" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#c8ff00">WED</text>
-
-    <rect x="132" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="148" y="181" font-family="monospace" font-size="10" text-anchor="middle" fill="#55556a">21</text>
-    <text x="148" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">THU</text>
-
-    <rect x="170" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#c8ff00" stroke-width="1"/>
-    <text x="186" y="181" font-family="monospace" font-size="10" font-weight="700" text-anchor="middle" fill="#c8ff00">22</text>
-    <text x="186" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#c8ff00">FRI</text>
-
-    <rect x="208" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="224" y="181" font-family="monospace" font-size="10" text-anchor="middle" fill="#55556a">23</text>
-    <text x="224" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">SAT</text>
-
-    <rect x="246" y="168" width="32" height="32" rx="7" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <text x="262" y="181" font-family="monospace" font-size="10" text-anchor="middle" fill="#55556a">24</text>
-    <text x="262" y="194" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">SUN</text>
-
-    <!-- WORKOUTS LABEL -->
-    <text x="18" y="220" font-family="monospace" font-size="8" letter-spacing="2" fill="#55556a">RECENT WORKOUTS</text>
-
-    <!-- Workout Card 1 -->
-    <rect x="18" y="228" width="314" height="64" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <rect x="18" y="228" width="3" height="64" rx="3" fill="#ff3355"/>
-    <text x="30" y="249" font-family="Arial Black, sans-serif" font-size="17" font-weight="900" letter-spacing="1" fill="#eeeeff">PUSH DAY A</text>
-    <text x="30" y="264" font-family="monospace" font-size="7.5" fill="#55556a">Thu 20 Mar · 6 exercises · 24 sets</text>
-    <rect x="244" y="233" width="80" height="18" rx="9" fill="rgba(200,255,0,0.12)"/>
-    <text x="284" y="246" font-family="monospace" font-size="8" text-anchor="middle" fill="#c8ff00">4320 KG VOL</text>
-    <text x="30" y="282" font-family="monospace" font-size="7.5" fill="#ff3355">Push</text>
-
-    <!-- Workout Card 2 -->
-    <rect x="18" y="300" width="314" height="64" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <rect x="18" y="300" width="3" height="64" rx="3" fill="#38b2ff"/>
-    <text x="30" y="321" font-family="Arial Black, sans-serif" font-size="17" font-weight="900" letter-spacing="1" fill="#eeeeff">PULL DAY B</text>
-    <text x="30" y="336" font-family="monospace" font-size="7.5" fill="#55556a">Tue 18 Mar · 7 exercises · 28 sets</text>
-    <rect x="244" y="305" width="80" height="18" rx="9" fill="rgba(200,255,0,0.12)"/>
-    <text x="284" y="318" font-family="monospace" font-size="8" text-anchor="middle" fill="#c8ff00">5100 KG VOL</text>
-    <text x="30" y="354" font-family="monospace" font-size="7.5" fill="#38b2ff">Pull</text>
-
-    <!-- Workout Card 3 -->
-    <rect x="18" y="372" width="314" height="64" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
-    <rect x="18" y="372" width="3" height="64" rx="3" fill="#c8ff00"/>
-    <text x="30" y="393" font-family="Arial Black, sans-serif" font-size="17" font-weight="900" letter-spacing="1" fill="#eeeeff">LEG DAY</text>
-    <text x="30" y="408" font-family="monospace" font-size="7.5" fill="#55556a">Mon 17 Mar · 8 exercises · 32 sets</text>
-    <rect x="244" y="377" width="80" height="18" rx="9" fill="rgba(200,255,0,0.12)"/>
-    <text x="284" y="390" font-family="monospace" font-size="8" text-anchor="middle" fill="#c8ff00">7200 KG VOL</text>
-    <text x="30" y="426" font-family="monospace" font-size="7.5" fill="#c8ff00">Legs</text>
-
-    <!-- CHART SECTION -->
-    <text x="18" y="454" font-family="monospace" font-size="8" letter-spacing="2" fill="#55556a">BENCH PRESS — MAX WEIGHT</text>
-    <rect x="18" y="462" width="314" height="120" rx="11" fill="#161628" stroke="#252540" stroke-width="1"/>
-
-    <!-- Chart grid lines -->
-    <line x1="50" y1="492" x2="320" y2="492" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <line x1="50" y1="512" x2="320" y2="512" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <line x1="50" y1="532" x2="320" y2="532" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <line x1="50" y1="552" x2="320" y2="552" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
-    <line x1="50" y1="572" x2="320" y2="572" stroke="#252540" stroke-width="0.5" stroke-dasharray="3,3"/>
-
-    <!-- Area fill -->
-    <path d="M55,572 L95,562 L135,554 L175,544 L215,530 L255,516 L295,502 L315,490 L315,578 L55,578 Z"
-      fill="rgba(200,255,0,0.05)"/>
-    <!-- Line -->
-    <path d="M55,572 L95,562 L135,554 L175,544 L215,530 L255,516 L295,502 L315,490"
-      fill="none" stroke="#c8ff00" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
-    <!-- Dots -->
-    <circle cx="55" cy="572" r="3" fill="#c8ff00"/>
-    <circle cx="95" cy="562" r="3" fill="#c8ff00"/>
-    <circle cx="135" cy="554" r="3" fill="#c8ff00"/>
-    <circle cx="175" cy="544" r="3" fill="#c8ff00"/>
-    <circle cx="215" cy="530" r="3" fill="#c8ff00"/>
-    <circle cx="255" cy="516" r="3" fill="#c8ff00"/>
-    <circle cx="295" cy="502" r="3" fill="#c8ff00"/>
-    <circle cx="315" cy="490" r="5" fill="#c8ff00" filter="url(#softglow)"/>
-
-    <!-- PR label -->
-    <rect x="296" y="477" width="34" height="14" rx="7" fill="rgba(255,140,0,0.2)" stroke="rgba(255,140,0,0.5)" stroke-width="1"/>
-    <text x="313" y="488" font-family="monospace" font-size="7" text-anchor="middle" fill="#ff8c00">PR 180</text>
-
-    <!-- Y labels -->
-    <text x="46" y="495" font-family="monospace" font-size="7" text-anchor="end" fill="#55556a">180</text>
-    <text x="46" y="515" font-family="monospace" font-size="7" text-anchor="end" fill="#55556a">160</text>
-    <text x="46" y="535" font-family="monospace" font-size="7" text-anchor="end" fill="#55556a">140</text>
-    <text x="46" y="555" font-family="monospace" font-size="7" text-anchor="end" fill="#55556a">120</text>
-    <text x="46" y="575" font-family="monospace" font-size="7" text-anchor="end" fill="#55556a">100</text>
-
-    <!-- Bottom Nav -->
-    <rect x="10" y="602" width="340" height="48" fill="#111122"/>
-    <rect x="10" y="602" width="340" height="1" fill="#252540"/>
-    <text x="52" y="628" font-size="16" text-anchor="middle" fill="#c8ff00">🏠</text>
-    <text x="52" y="641" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#c8ff00">HOME</text>
-    <text x="142" y="628" font-size="16" text-anchor="middle" fill="#55556a">📋</text>
-    <text x="142" y="641" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">LOG</text>
-    <text x="226" y="628" font-size="16" text-anchor="middle" fill="#55556a">📈</text>
-    <text x="226" y="641" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">PROGRESS</text>
-    <text x="312" y="628" font-size="16" text-anchor="middle" fill="#55556a">💪</text>
-    <text x="312" y="641" font-family="monospace" font-size="6.5" text-anchor="middle" fill="#55556a">MOVES</text>
-  </g>
-
-  <!-- Glow ring around phone -->
-  <rect x="0" y="0" width="360" height="660" rx="36" fill="none" stroke="#c8ff00" stroke-width="1" stroke-opacity="0.15"/>
-</svg>
+<img src="mockup.svg" width="300" alt="IRONLOG app preview"/>
 
 <br/><br/>
 
@@ -196,19 +21,19 @@
 
 ## ⚡ What is IRONLOG?
 
-**IRONLOG** is a zero-BS workout tracker built as a **Progressive Web App** — meaning it installs directly on your Android home screen from Chrome, runs fully offline, and never asks you to sign up, pay, or download anything from a store.
+**IRONLOG** is a zero-BS workout tracker built as a **Progressive Web App** — installs directly on your Android home screen from Chrome, runs fully offline, and never asks you to sign up, pay, or download from a store.
 
-Purpose-built for the **Samsung Galaxy S21 FE** but runs on any modern Android or iOS device.
+Purpose-built for the **Samsung Galaxy S21 FE** but works on any modern Android or iOS.
 
 ---
 
 ## 📱 Install in 30 Seconds
 
 ```
-1. Open  →  https://kingadityaj.github.io/Ironlog
-2. Tap   →  ⋮ Menu (top right in Chrome)
-3. Tap   →  "Add to Home Screen"
-4. Done  →  Launches fullscreen like a native app
+1. Open   →  https://kingadityaj.github.io/Ironlog
+2. Tap    →  ⋮ Menu (top right in Chrome)
+3. Tap    →  "Add to Home Screen"
+4. Done   →  Launches fullscreen like a native app
 ```
 
 > No Play Store. No App Store. No account. No ads. Just iron.
@@ -235,30 +60,30 @@ Purpose-built for the **Samsung Galaxy S21 FE** but runs on any modern Android o
 ## 🗂️ Movement Patterns
 
 ```
-🔴  PUSH   →  Chest · Shoulders · Triceps        (20 exercises)
-🔵  PULL   →  Back · Biceps · Rear Delts          (21 exercises)
-🟡  LEGS   →  Quads · Hamstrings · Glutes         (17 exercises)
-🟠  HINGE  →  Posterior Chain · Deadlift Variants (10 exercises)
-🟣  CORE   →  Abs · Obliques · Anti-Rotation      (14 exercises)
-🟢  CARRY  →  Full Body · Grip Strength            (3 exercises)
+🔴  PUSH   →  Chest · Shoulders · Triceps          (20 exercises)
+🔵  PULL   →  Back · Biceps · Rear Delts            (21 exercises)
+🟡  LEGS   →  Quads · Hamstrings · Glutes · Calves  (17 exercises)
+🟠  HINGE  →  Posterior Chain · Deadlift Variants   (10 exercises)
+🟣  CORE   →  Abs · Obliques · Anti-Rotation        (14 exercises)
+🟢  CARRY  →  Full Body · Grip Strength              (3 exercises)
 ```
 
 ---
 
 ## 📈 Progress Tracking
 
-IRONLOG tracks progression **every time you repeat an exercise** — not just week to week. Every session is a data point plotted on a chart so you can see exactly when you hit a PR and when volume trends upward.
+IRONLOG tracks your progression **every time you repeat an exercise** — not just week to week. Every session becomes a data point on a chart so you can see exactly when you hit a PR and when volume trends upward.
 
 ```
-Session 1  →  100 kg   ██████░░░░░░  
-Session 2  →  105 kg   ███████░░░░░  
-Session 3  →  107.5 kg ███████░░░░░  
-Session 4  →  112.5 kg ████████░░░░  
-Session 5  →  120 kg   █████████░░░  🏆 PR  
-Session 6  →  125 kg   ██████████░░  🏆 PR  
+Session 1  →  100 kg   ██████░░░░░░
+Session 2  →  105 kg   ███████░░░░░
+Session 3  →  107.5 kg ███████░░░░░
+Session 4  →  112.5 kg ████████░░░░
+Session 5  →  120 kg   █████████░░░  🏆 PR
+Session 6  →  125 kg   ██████████░░  🏆 PR
 ```
 
-Switch between **Max Weight**, **Total Volume**, or **Max Reps** views with one tap.
+Switch between **Max Weight**, **Total Volume**, or **Max Reps** with one tap.
 
 ---
 
@@ -268,7 +93,7 @@ Switch between **Max Weight**, **Total Volume**, or **Max Reps** views with one 
 HTML5         →  Single-file PWA, zero build step required
 CSS3          →  Custom properties, fluid animations, mobile-first
 Vanilla JS    →  No frameworks, no dependencies, no bundler
-Chart.js      →  Progress charts & analytics visualizations
+Chart.js      →  Progress charts and analytics visualizations
 localStorage  →  Persistent offline-first data storage
 Google Fonts  →  Barlow Condensed + JetBrains Mono
 ```
@@ -279,8 +104,8 @@ Google Fonts  →  Barlow Condensed + JetBrains Mono
 
 ```bash
 # 1. Fork this repository
-# 2. Go to Settings → Pages → Source → Deploy from main branch
-# 3. Your live URL will be:
+# 2. Settings → Pages → Source → Deploy from main branch
+# 3. Your live URL:
 
 https://[your-username].github.io/Ironlog
 ```
@@ -291,7 +116,9 @@ https://[your-username].github.io/Ironlog
 
 ```
 Ironlog/
-└── index.html   ←  The entire app. One file. That's it.
+├── index.html    ←  The entire app. One file.
+├── mockup.svg    ←  README phone preview graphic
+└── README.md     ←  This file
 ```
 
 ---
